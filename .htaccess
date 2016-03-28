@@ -1,0 +1,37 @@
+RewriteEngine on
+
+RewriteCond $1 !^(index\.php|images|img|img_all|css|css_all|js|js_all|robots\.txt|favicon\.ico|.*\.html|.*\.doc)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+AddEncoding gzip .gz
+
+RewriteCond %{HTTP:Accept-encoding} gzip
+RewriteCond %{REQUEST_FILENAME}\.gz -s
+RewriteRule ^(.*)\.js $1\.js\.gz [QSA]
+
+RewriteCond %{HTTP:Accept-encoding} gzip
+RewriteCond %{REQUEST_FILENAME}\.gz -s
+RewriteRule ^(.*)\.css $1\.css\.gz [QSA]
+
+<FilesMatch .*\.js\.gz$>
+   ForceType text/javascript
+   Header set Content-Encoding gzip
+   Header append Vary Accept-Encoding
+</FilesMatch>
+
+<FilesMatch .*\.css\.gz$>
+   ForceType text/css
+   Header set Content-Encoding gzip
+   Header append Vary Accept-Encoding
+</FilesMatch>
+
+<IfModule deflate_module>
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>

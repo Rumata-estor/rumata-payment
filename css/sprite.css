@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+.ico_PPZ, .ico_ALF, .ico_BLN, .ico_BNK, .ico_BLN_hover, .ico_BNK_hover, .ico_GCU, .ico_GCU_hover, .ico_MGF, .ico_MGF_hover, .ico_MRR, .ico_MRR_hover, .ico_MTS, .ico_MTS_hover, .ico_PCR, .ico_PCR_hover, .ico_PLE, .ico_PLE_hover, .ico_ALF_hover, .ico_PPZ_hover, .ico_PRR, .ico_PRR_hover, .ico_QSR, .ico_QSR_hover, .ico_RBX, .ico_RBX_hover, .ico_RUB, .ico_RUB_hover, .ico_SBR, .ico_SBR_hover, .ico_SVB, .ico_SVB_hover, .ico_TL2, .ico_TL2_hover, .ico_WMR, .ico_WMR_hover {display: inline-block; background-image: url(/img/sprite.png); background-repeat: no-repeat}
+
+.ico_PPZ:hover {background-position: -0px -0px; height: 36px; width: 36px}
+.ico_PPZ {background-position: -144px -108px; height: 36px; width: 36px}
+.ico_ALF:hover {background-position: -36px -0px; height: 36px; width: 36px}
+.ico_ALF {background-position: -144px -72px; height: 36px; width: 36px}
+.ico_BLN:hover {background-position: -0px -36px; height: 36px; width: 36px}
+.ico_BNK:hover {background-position: -36px -36px; height: 36px; width: 36px}
+.ico_BLN {background-position: -72px -0px; height: 36px; width: 36px}
+.ico_BNK {background-position: -72px -36px; height: 36px; width: 36px}
+.ico_GCU:hover {background-position: -0px -72px; height: 36px; width: 36px}
+.ico_GCU {background-position: -36px -72px; height: 36px; width: 36px}
+.ico_MGF:hover {background-position: -72px -72px; height: 36px; width: 36px}
+.ico_MGF {background-position: -108px -0px; height: 36px; width: 36px}
+.ico_MRR:hover {background-position: -108px -36px; height: 36px; width: 36px}
+.ico_MRR {background-position: -108px -72px; height: 36px; width: 36px}
+.ico_MTS:hover {background-position: -0px -108px; height: 36px; width: 36px}
+.ico_MTS {background-position: -36px -108px; height: 36px; width: 36px}
+.ico_PCR:hover {background-position: -72px -108px; height: 36px; width: 36px}
+.ico_PCR {background-position: -108px -108px; height: 36px; width: 36px}
+.ico_PLE:hover {background-position: -144px -0px; height: 36px; width: 36px}
+.ico_PLE {background-position: -144px -36px; height: 36px; width: 36px}
+.ico_PRR:hover  {background-position: -0px -144px; height: 36px; width: 36px}
+.ico_PRR{background-position: -36px -144px; height: 36px; width: 36px}
+.ico_QSR:hover {background-position: -72px -144px; height: 36px; width: 36px}
+.ico_QSR {background-position: -108px -144px; height: 36px; width: 36px}
+.ico_RBX:hover {background-position: -144px -144px; height: 36px; width: 36px}
+.ico_RBX {background-position: -180px -0px; height: 36px; width: 36px}
+.ico_RUB:hover {background-position: -180px -36px; height: 36px; width: 36px}
+.ico_RUB {background-position: -180px -72px; height: 36px; width: 36px}
+.ico_SBR:hover {background-position: -180px -108px; height: 36px; width: 36px}
+.ico_SBR {background-position: -180px -144px; height: 36px; width: 36px}
+.ico_SVB:hover {background-position: -0px -180px; height: 36px; width: 36px}
+.ico_SVB {background-position: -36px -180px; height: 36px; width: 36px}
+.ico_TL2:hover {background-position: -72px -180px; height: 36px; width: 36px}
+.ico_TL2 {background-position: -108px -180px; height: 36px; width: 36px}
+.ico_WMR:hover {background-position: -144px -180px; height: 36px; width: 36px}
+.ico_WMR {background-position: -180px -180px; height: 36px; width: 36px}
+

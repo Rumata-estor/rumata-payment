@@ -1,0 +1,17 @@
+input.date {width:7em;}
+
+.mm {position:absolute; padding:.2em; border:1px solid #ccc; background-color:#fff; z-index:2;}
+.mm table {border-collapse:separate; table-layout:fixed; text-align:center; font-size:11px;}
+.mm col {width:2em; }
+.mm col.red {background-color:#fdd;}
+.mm td {padding:0; vertical-align:middle; height:1.5em; }
+.mm td div {padding: .1em 0 0 0; border:1px solid #999; border-color:#ddd #777 #777 #ddd; cursor:default;}
+.mm td div:hover, .mm td .hover {background-color:#47a447; border-color:#398439 #ddd #ddd #398439;}
+.mm div.red {color:#c00;}
+.mm select {margin-right:0;}
+.mm .ri {text-align:right;}
+.mm p {margin:0;}
+.disnone {display:none;}
+
+ol {text-align:left; width:40em; font-size:.75em; margin:0 auto;}
+
